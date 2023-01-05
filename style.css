@@ -17,10 +17,20 @@ header h1 {
     margin-left: 25px;
 }
 
+.info {
+    height: 250px;
+}
+
 .info h1, h2, h3 {
     color: #000508;
     font-size: 25px;
+    margin-bottom: 10px;
 }
+
+.margin {
+    height: 400px;
+}
+
 
 /* ****************** HEADER ***************** */
 
@@ -82,9 +92,8 @@ main {
 /* ****************** SECTION ****************** */
 
 section {
-    margin: 50px 0;
+    margin: 40px 0;
     border-bottom: solid 1px black;
-    height: 250px;
     display: flex;
     flex-direction: column;
 }
@@ -140,7 +149,7 @@ section p {
 /* ****************** ENTETE ****************** */
 
 .entete {
-    background-color: #006699;
+    background: linear-gradient(to right, #1c8fc9, #054566);
     height: 50px;
 
 }
