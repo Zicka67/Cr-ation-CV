@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    background-color: #fff;
+}
+
+/* H1 H2 etc.. */ 
+
+header h1 {
+    margin-top: 17px;
+    margin-left: 25px;
+}
+
+.info h1, h2, h3 {
+    color: #000508;
+}
+
+/* ****************** HEADER ***************** */
+
+header {
+    background-color: #006699;
+    color: #fff;
+    display: flex;
+    text-align: center;
+}
+
+header nav {
+    height: 80px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 25px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    
+}
+
+header nav ul li a:hover {
+    color: #006699;
+    background-color: #fff;
+    border-radius: 3px;
+    /* padding: 5px 10px; */
+    
+}
+
+/* ****************** MAIN ****************** */
+
+main {
+    max-width: 70%;
+    margin: 0 auto;
+    /* padding: 30px 15%; */
+    /* text-align: center; */
+}
+
+/* ****************** SECTION ****************** */
+
+section {
+    margin: 30px 0;
+    border-bottom: solid 1px black;
+}
+
+section h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #f4f6f7;
+    margin: 10px 0;
+    text-align: center;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 10px 0;
+}
+
+/* ****************** PORTFOLIO ****************** */
+
+#portfolio {
+    
+}
+
+.portfolio-item {
+    display: inline-block;
+    margin: 0 10px;
+    transition: all 0.5s ease;
+}
+
+.portfolio-item img {
+    width: 350px;
+    height: 230px;
+    object-fit: cover;
+    filter: grayscale(100%);
+}
+
+.portfolio-item img:hover { /* Ajouter le zoom */
+    filter: none;
+    cursor: pointer;
+}
+
+/* ****************** ENTETE ****************** */
+
+.entete {
+    background-color: #006699;
+}
+
+/* ****************** RESP ****************** */
+
+@media screen and (max-width: 768px) {
+    header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    header nav ul li {
+        margin: 10px 0;
+    }
+    main {
+        padding: 30px 5%;
+    }
+    .portfolio-item {
+        margin: 10px 0;
+    }
+    
+    
+}
