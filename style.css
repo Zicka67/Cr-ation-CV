@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* #006699 */
 }
 
 body {
@@ -10,15 +11,30 @@ body {
     background-color: #fff;
 }
 
+.info {
+    height: 250px;
+}
+
+/* FONT */ 
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
 /* H1 H2 etc.. */ 
 
 header h1 {
     margin-top: 17px;
     margin-left: 25px;
-}
-
-.info {
-    height: 250px;
 }
 
 .info h1, h2, h3 {
@@ -35,7 +51,7 @@ header h1 {
 /* ****************** HEADER ***************** */
 
 header {
-    background-color: #006699;
+    background-color: #3d0881;
     color: #fff;
     display: flex;
     text-align: center;
@@ -73,7 +89,6 @@ header nav ul li a {
 
 /* Faire que le hover transforme tte la case en blanc pas juste un peu autour */
 header nav ul li a:hover {    
-    color: #006699;
     background-color: #fff;
     border-radius: 3px;
     /* padding: 5px 10px; */
@@ -149,14 +164,29 @@ section p {
 /* ****************** ENTETE ****************** */
 
 .entete {
-    background: linear-gradient(to right, #1c8fc9, #054566);
+    background: linear-gradient(to right, #4a34dd, #31046c);
     height: 50px;
-
+    
 }
 
 .entete h2 {
     padding-top: 7px;
 }
+
+footer {
+    height: 50px;
+    background-color: #3d0881;
+    color: #fff;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 15px;
+}
+
+
 
 /* ****************** RESP ****************** */
 
