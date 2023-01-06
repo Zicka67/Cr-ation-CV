@@ -64,7 +64,7 @@ header h1 {
 }
 
 .info h1, h2, h3 {
-    color: #000508;
+    color: #180334;
     font-size: 25px;
     margin-bottom: 10px;
     letter-spacing: 1px;
@@ -135,8 +135,8 @@ main {
 /* ****************** SECTION ****************** */
 
 section {
-    margin: 40px 0;
-    border-bottom: solid 1px black;
+    margin: 40px 0 40px 0;
+    /* border-bottom: solid 1px black; */
     display: flex;
     flex-direction: column;
 }
@@ -192,7 +192,7 @@ section p {
 /* ****************** ENTETE ****************** */
 
 .entete {
-    background: linear-gradient(to right, #4a34dd, #31046c);
+    background: linear-gradient(to right, #723aec, #6b048a);
     height: 50px;
     
 }
@@ -218,29 +218,182 @@ footer p {
 
 /* ****************** BAR ****************** */
 
-.progress-bar {
-    width: 50%;
-    height: 20px;
-    background-color: #ddd;
-    border-radius: 10px;
-    margin: 50px 0 10px 200px;
-    display: flex;
-    align-items: center;
-    
+.gauche {
+    float: left;
+    width: 500px;
+}
+
+.droite {
+    float: right;
+    margin-right: 50px;
 }
 
 
-.progress-bar-fill {
+/* html */
+
+.progress-bar-html {
+    width: 500px;
+    height: 30px;
+    background-color: #ddd;
+    border-radius: 10px;
+    margin: 50px 0 10px 70px;
+    display: flex;
+    align-items: center;
+}
+
+
+.progress-bar-fill-html {
+    height: 100%;
+    width: 70%;
+    background-color: #3d0881;
+    border-radius: 10px;
+}
+
+.progress-bar-html p {
+    color: #e7e5eb;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: -200px; /* A CORRIGER */
+}
+
+/* css */
+
+.progress-bar-css {
+    width: 500px;
+    height: 30px;
+    background-color: #ddd;
+    border-radius: 10px;
+    margin: 50px 0 10px 70px;
+    display: flex;
+    align-items: center;
+}
+
+
+.progress-bar-fill-css {
+    height: 100%;
+    width: 60%;
+    background-color: #3d0881;
+    border-radius: 10px;
+}
+
+.progress-bar-css p {
+    color: #e7e5eb;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: -160px; /* A CORRIGER */
+}
+
+/* php */
+
+.progress-bar-php {
+    width: 500px;
+    height: 30px;
+    background-color: #ddd;
+    border-radius: 10px;
+    margin: 50px 0 10px 70px;
+    display: flex;
+    align-items: center;
+}
+
+
+.progress-bar-fill-php {
+    height: 100%;
+    width: 35%;
+    background-color: #3d0881;
+    border-radius: 10px;
+}
+
+.progress-bar-php p {
+    color: #e7e5eb;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: -105px; /* A CORRIGER */
+}
+
+
+/* REACT */
+
+.progress-bar-react {
+    width: 500px;
+    height: 30px;
+    background-color: #ddd;
+    border-radius: 10px;
+    margin: 50px 0 10px 70px;
+    display: flex;
+    align-items: center;
+}
+
+
+.progress-bar-fill-react {
+    height: 100%;
+    width: 20%;
+    background-color: #3d0881;
+    border-radius: 10px;
+}
+
+.progress-bar-react p {
+    color: #e7e5eb;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: -80px;  /* A CORRIGER */
+}
+
+/* bootstrap */
+
+.progress-bar-bootstrap {
+    width: 500px;
+    height: 30px;
+    background-color: #ddd;
+    border-radius: 10px;
+    margin: 50px 0 10px 70px;
+    display: flex;
+    align-items: center;
+}
+
+
+.progress-bar-fill-bootstrap {
     height: 100%;
     width: 50%;
     background-color: #3d0881;
     border-radius: 10px;
 }
 
-.flex-bar p {
-    color: #3d0881;
+.progress-bar-bootstrap p {
+    color: #e7e5eb;
     font-size: 20px;
     font-weight: bold;
+    margin-left: -180px; /* A CORRIGER */
+}
+
+/* ANGULAR */
+
+.progress-bar-angular {
+    width: 500px;
+    height: 30px;
+    background-color: #ddd;
+    border-radius: 10px;
+    margin: 50px 0 10px 70px;
+    display: flex;
+    align-items: center;
+}
+
+
+.progress-bar-fill-angular {
+    height: 100%;
+    width: 20%;
+    background-color: #3d0881;
+    border-radius: 10px;
+}
+
+.progress-bar-angular p {
+    color: #e7e5eb;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: -95px; /* A CORRIGER */
+}
+
+.bar-container p {
+    letter-spacing: -1px;
 }
 
 /* ****************** RESP ****************** */
