@@ -181,6 +181,7 @@ section p {
     object-fit: cover;
     filter: grayscale(100%);
     transition: 0.5s;
+    border: solid 2px #020005;
 }
 
 .portfolio-item img:hover { /* Ajouter le zoom */
