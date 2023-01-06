@@ -111,7 +111,7 @@ header nav ul li a {
     text-decoration: none;
     font-size: 20px;
     font-weight: 600;
-    transition: all 0.3s ease;
+    transition: all 0.5s;
     
 }
 
@@ -120,7 +120,7 @@ header nav ul li a:hover {
     background-color: #fff;
     border-radius: 3px;
     color: #3d0881;
-    
+    transition: 0.5s;
 }
 
 /* ****************** MAIN ****************** */
@@ -403,6 +403,7 @@ footer p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 35px;
 }
 
 .form-row {
@@ -412,16 +413,41 @@ footer p {
 }
 
 .form-input {
-    width: 200px;
-    height: 40px;
+    width: 300px;
+    height: 50px;
     margin: 10px;
+    border: 2px solid #1808a5;
+    border-radius: 5px;
 }
 
 .form-textarea {
-    width: 400px;
+    width: 620px;
     height: 200px;
     margin: 10px;
+    border: 2px solid #1808a5;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif;
+    resize: none; /* pour enlever le bouton de redimensionnement */
 }
+
+.form-textarea::placeholder {
+    margin-top: 5px; /* Ne fonctionne pas, surement a cause du navigateur Moz */
+}
+
+.form-input::placeholder {
+    color: rgb(0, 0, 1);
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* .form-row input:focus {
+    -moz-appearance: none;  problème pour changer la couleur de l'input  */
+    /* outline-color: #3f2de1;
+} */
+
 
 /* ****************** RESP ****************** */
 
