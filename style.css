@@ -64,7 +64,7 @@ header h1 {
 }
 
 .info h1, h2, h3 {
-    color: #180334;
+    color: #3d0881;
     font-size: 25px;
     margin-bottom: 10px;
     letter-spacing: 1px;
@@ -393,8 +393,34 @@ footer p {
     margin-left: -95px; /* A CORRIGER */
 }
 
+/* FORMULAIRE */
+
 .bar-container p {
     letter-spacing: -1px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.form-input {
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+}
+
+.form-textarea {
+    width: 400px;
+    height: 200px;
+    margin: 10px;
 }
 
 /* ****************** RESP ****************** */
