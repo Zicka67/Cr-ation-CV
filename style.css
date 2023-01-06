@@ -11,9 +11,31 @@ body {
     background-color: #fff;
 }
 
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
 .info {
     height: 250px;
+    
 }
+
+/* .photo-perso {
+    
+} */
+
+.photo-perso img {
+    clip-path:ellipse(33% 50%);
+    width: 400px;
+    height: 250px;
+}
+
+/* .photo-perso a {
+    
+} */
+
 
 /* FONT */ 
 
@@ -44,12 +66,14 @@ header h1 {
 .info h1, h2, h3 {
     color: #000508;
     font-size: 25px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     letter-spacing: 1px;
+    
 }
 
+
 .margin {
-    height: 400px;
+    height: 450px;
 }
 
 
@@ -73,18 +97,19 @@ header nav {
 header nav ul {
     list-style: none;
     margin-top: 25px;
+    text-transform: uppercase;
 }
 
 header nav ul li {
     display: inline-block;
     margin: 0 10px;
-    
+    height: 100%;
 }
 
 header nav ul li a {  
     color: #fff;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
     transition: all 0.3s ease;
     
@@ -94,7 +119,7 @@ header nav ul li a {
 header nav ul li a:hover {    
     background-color: #fff;
     border-radius: 3px;
-    /* padding: 5px 10px; */
+    color: #3d0881;
     
 }
 
@@ -182,6 +207,8 @@ footer {
     color: #fff;
 }
 
+/* ****************** FOOTER ****************** */
+
 footer p {
     display: flex;
     justify-content: center;
@@ -189,7 +216,32 @@ footer p {
     font-size: 15px;
 }
 
+/* ****************** BAR ****************** */
 
+.progress-bar {
+    width: 50%;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 10px;
+    margin: 50px 0 10px 200px;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.progress-bar-fill {
+    height: 100%;
+    width: 50%;
+    background-color: #3d0881;
+    border-radius: 10px;
+}
+
+.flex-bar p {
+    color: #3d0881;
+    font-size: 20px;
+    font-weight: bold;
+}
 
 /* ****************** RESP ****************** */
 
