@@ -22,6 +22,15 @@ body {
     
 }
 
+.purple-divider
+{
+    width: 140px;
+    height: 5px;
+    background-color: #3d0881;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
 /* .photo-perso {
     
 } */
@@ -154,17 +163,20 @@ section p {
     margin: 10px 0;
 }
 
-/* ****************** CONTAINER ****************** */
-.container {
-    font-size: 24px;
-    font-weight: 600;
-    color: #f4f6f7;
-    text-align: center;
+#hobbies {
+    height: 250px;
 }
 
-.container h2 {
-    color: #f4f6f7;
-    font-size: 30px;
+#experience {
+    height: 350px;
+}
+
+#skills {
+    height: 380px;
+}
+
+#infos {
+    height: 200px;
 }
 
 /* ****************** PORTFOLIO ****************** */
