@@ -26,9 +26,9 @@ body {
 {
     width: 140px;
     height: 5px;
-    background-color: #3d0881;
-    margin: 20px auto;
-    border-radius: 5px;
+    background-color: #1316c9;
+    margin: 30px auto;
+    border-radius: 5px; 
 }
 
 /* .photo-perso {
@@ -73,7 +73,7 @@ header h1 {
 }
 
 .info h1, h2, h3 {
-    color: #3d0881;
+    color: #060758;
     font-size: 25px;
     margin-bottom: 10px;
     letter-spacing: 1px;
@@ -89,7 +89,7 @@ header h1 {
 /* ****************** HEADER ***************** */
 
 header {
-    background-color: #3d0881;
+    background-color: #1316c9;
     color: #fff;
     display: flex;
     text-align: center;
@@ -132,11 +132,11 @@ header  a {
 header  a:hover {    
     background-color: #fff;
     border-radius: 3px;
-    color: #3d0881;
+    color: #1316c9;
 }
 
 header nav ul li:hover a {    
-    color: #3d0881;
+    color: #1316c9;
 }
 
 /* ****************** MAIN ****************** */
@@ -172,6 +172,7 @@ section p {
 
 #hobbies {
     height: 250px;
+    margin-top: 150px;
 }
 
 #experience {
@@ -190,6 +191,7 @@ section p {
 
 .container {
     width: 1321px;
+    margin-bottom: 30px;
 }
 
 
@@ -213,10 +215,11 @@ section p {
     transition: 0.5s;
 }
 
+
 /* ****************** ENTETE ****************** */
 
 .entete {
-    background: linear-gradient(to right, #723aec, #6b048a);
+    background: linear-gradient(to right, #3d83df, #1316c9);
     height: 50px;
     
 }
@@ -227,7 +230,7 @@ section p {
 
 footer {
     height: 50px;
-    background-color: #3d0881;
+    background-color: #2608ac;
     color: #fff;
 }
 
@@ -269,7 +272,7 @@ footer p {
 .progress-bar-fill-html {
     height: 100%;
     width: 70%;
-    background-color: #3d0881;
+    background-color: #1316c9;
     border-radius: 10px;
 }
 
@@ -296,7 +299,7 @@ footer p {
 .progress-bar-fill-css {
     height: 100%;
     width: 60%;
-    background-color: #3d0881;
+    background-color: #1316c9;
     border-radius: 10px;
 }
 
@@ -323,7 +326,7 @@ footer p {
 .progress-bar-fill-php {
     height: 100%;
     width: 35%;
-    background-color: #3d0881;
+    background-color: #1316c9;
     border-radius: 10px;
 }
 
@@ -351,7 +354,7 @@ footer p {
 .progress-bar-fill-react {
     height: 100%;
     width: 20%;
-    background-color: #3d0881;
+    background-color: #1316c9;
     border-radius: 10px;
 }
 
@@ -378,7 +381,7 @@ footer p {
 .progress-bar-fill-bootstrap {
     height: 100%;
     width: 50%;
-    background-color: #3d0881;
+    background-color: #1316c9;
     border-radius: 10px;
 }
 
@@ -405,7 +408,7 @@ footer p {
 .progress-bar-fill-angular {
     height: 100%;
     width: 20%;
-    background-color: #3d0881;
+    background-color: #1316c9;
     border-radius: 10px;
 }
 
@@ -457,10 +460,14 @@ footer p {
 
 .form-textarea::placeholder {
     margin-top: 5px; /* Ne fonctionne pas, surement a cause du navigateur Moz */
+    color: rgb(0, 0, 8);
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif
 }
 
 .form-input::placeholder {
-    color: rgb(0, 0, 1);
+    color: rgb(0, 0, 8);
     font-size: 12px;
     font-weight: 600;
     font-family: 'Ubuntu', sans-serif;
